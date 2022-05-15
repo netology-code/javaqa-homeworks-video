@@ -115,7 +115,5 @@ public class Main {
 
 ![image](https://user-images.githubusercontent.com/53707586/145559790-cf4b1254-ceb8-4931-92dd-031575450583.png)
 
-Какой баг-репорт получится из шаблона выше можно посмотреть [здесь](https://github.com/netology-code/javaqa2-homeworks/issues/2).
-
 ### Результат
 При отправке решения в личном кабинете прикрепите ссылку на ваш публичный гитхаб-репозиторий.
