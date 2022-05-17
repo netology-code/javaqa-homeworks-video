@@ -160,7 +160,7 @@
 public class BonusService {
   public long calculate(long amount, boolean registered) {
     int percent = registered ? 3 : 1;
-    long bonus = amount * percent / 100 / 100;
+    long bonus = amount * percent / 100;
     long limit = 500;
     if (bonus > limit) {
       bonus = limit;
@@ -181,7 +181,7 @@ public class BonusServiceTest {
     BonusService service = new BonusService();
 
     // подготавливаем данные:
-    long amount = 1000_60;
+    long amount = 1000;
     boolean registered = true;
     long expected = 30;
 
@@ -197,7 +197,7 @@ public class BonusServiceTest {
     BonusService service = new BonusService();
 
     // подготавливаем данные:
-    long amount = 1_000_000_60;
+    long amount = 1_000_000;
     boolean registered = true;
     long expected = 500;
 
