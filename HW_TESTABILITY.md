@@ -101,6 +101,7 @@ public class Main {
 
 ![image](https://user-images.githubusercontent.com/53707586/212545851-949d5826-82dc-47f7-b18a-e476819633af.png)
 
+Подсказка: для возведения чисел в степень в Java изучите и используйте команду `Math.pow`.
 
 ------
 
