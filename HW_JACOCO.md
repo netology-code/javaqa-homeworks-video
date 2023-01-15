@@ -25,7 +25,7 @@
 
 1. [Как создать Maven-проект в IDEA?](QA_Maven_Idea_Create.md)
 1. [Как отформатировать код в Java?](QA_Java_Idea_Format.md)
-1. [Как настроить CI на основе Github Actions?](QA_CI.md)
+1. :new: [Как настроить CI на основе Github Actions?](QA_CI.md)
 
 ------
 
