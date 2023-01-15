@@ -22,7 +22,7 @@
 ## Материалы, которые пригодятся для выполнения задания
 
 1. [Как создать Java-проект в IDEA?](QA_Java_Idea_Create.md)
-1. [Как отформатировать код в Java?](QA_Java_Idea_Format.md)
+1. :new: [Как отформатировать код в Java?](QA_Java_Idea_Format.md)
 
 ------
 
