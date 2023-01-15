@@ -54,6 +54,7 @@ public class BonusService {
 **Шаг 4.** Создайте тестовый класс со следующим исходным кодом:
 ```java
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 
 public class BonusServiceTest {
 
