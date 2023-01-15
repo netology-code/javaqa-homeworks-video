@@ -10,7 +10,7 @@
 * в `Location` выбираете папку в которой будет создана папка проекта
 * в `Language` выбираете `Java`
 * в `Build System` выбиратее `IntelliJ`
-* в JDK открываете список и выбираете `Download JDK`
+* в JDK открываете список и выбираете `Download JDK` (или сразу 11ю джаву если она уже установлена и отображается в списке)
 
 <img width="791" alt="image" src="https://user-images.githubusercontent.com/53707586/212538454-031a700d-e7e8-467e-8a82-4a2162ddb8aa.png">
 
