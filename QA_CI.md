@@ -22,6 +22,35 @@
       - name: Build with Maven
         run: mvn -B -e verify
   ```
+
+## Gitverse
+Если вы настраиваете CI на Gitverse, то там по умолчанию не будет команды мавен и нужно будет добавить ещё один шаг:
+
+```yml
+  name: Java CI with Maven
+
+  on: [push, pull_request]
+
+  jobs:
+    build:
+
+      runs-on: ubuntu-latest
+
+      steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      - name: Install Maven
+        run: |
+          apt-get update
+          apt-get -y install maven
+          mvn -version
+      - name: Build with Maven
+        run: mvn -B -e verify
+```
   
 ## JaCoCo
 
