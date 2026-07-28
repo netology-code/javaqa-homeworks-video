@@ -11,7 +11,7 @@
 
 ## Инструкция к заданию
 
-1. Скачайте и установите профессиональный редактор кода [Intellij Idea Community Version](https://www.jetbrains.com/idea/download/).
+1. Скачайте и установите профессиональный редактор кода [Intellij Idea Community Version](https://download-cdn.jetbrains.com/idea/idea-2025.3.2.exe).
 1. Откройте IDEA и [создайте новый Java-проект](QA_Java_Idea_Create.md).
 2. Создайте пустой репозиторий на GitHub и свяжите его с папкой вашего проекта (не с какой-либо другой папкой).
 3. Правильно настройте репозиторий в плане `.gitignore`. Проигнорируйте папки `.idea` и `out` и `.iml`-файл — их в репозитории быть не должно.
